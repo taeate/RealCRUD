@@ -1,0 +1,13 @@
+<IfModule authz_core_module>
+    Require all denied
+    RewriteEngine On
+    RewriteBase /
+
+    # URL 리라이팅 규칙
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+<IfModule !authz_core_module>
+    Deny from all
+</IfModule>

@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    justify-content: space-between; /* 요소 간에 공간을 균등하게 분배합니다. */
+    align-items: center; /* 요소를 수직 가운데 정렬합니다. */
+    background-color: #9d9bf8; /* 선택적으로 배경색 설정 */
+    padding: 10px; /* 선택적으로 여백 설정 */
+    border-radius: 25px; /* border-radius를 적용하여 둥근 모양으로 만듭니다. */
+}
+
+nav button {
+    /* 선택적으로 버튼 스타일링을 추가할 수 있습니다. */
+    background-color: #5c5c5c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+button a {
+    color: #e0e0e0;
+}
+
+nav div {
+    /* 선택적으로 div 스타일링을 추가할 수 있습니다. */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* border-radius를 적용하여 둥근 모양으로 만듭니다. */
+    cursor: pointer;
+}
+
+.home-container {
+    margin-top: 40px;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: center; /* 가로 방향 가운데 정렬 */
+    align-items: center; /* 세로 방향 가운데 정렬 */
+    height: 150px; /* 화면 높이에 맞게 설정 */
+    font-size: x-large;
+}
