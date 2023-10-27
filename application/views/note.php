@@ -1,6 +1,6 @@
 <?php $this->load->view('layout/header'); ?>
 
-<div class="header-2">책을 읽는 습관을 가지자</div>
+<div class="header-2">[ 책을 읽는 습관을 가지자 ]</div>
 <div class="home-container">
 	Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magnam laborum sed repudiandae id ut laudantium expedita perferendis enim doloribus. Amet vel illum ea enim nulla, nesciunt dicta ut voluptatum?
 	Non soluta beatae, aut reiciendis numquam veritatis est sapiente labore! Ipsa excepturi voluptatem magni est quasi accusamus incidunt odit inventore! Recusandae excepturi quos esse praesentium eveniet voluptatibus neque rem ipsa?
