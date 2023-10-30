@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto; /* 수평 가운데 정렬을 위해 auto 사용 */
+    border: 1px solid #333;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.createButton {
+    background-color: #5b72db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 0 auto; /* 수평 가운데 정렬 */
+    display: block; /* 가로 중앙 정렬을 위해 display 속성을 block으로 설정 */   
+    transition: transform 0.3s;
+}
+
+.createButton:hover {
+    transform: scale(1.1);
+}
+
+a.no-underline {
+    text-decoration: none; /* 특정 클래스가 지정된 링크의 텍스트 밑줄 제거 */
+}
