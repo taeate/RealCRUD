@@ -53,3 +53,21 @@ $route['default_controller'] = 'Reders';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['Readers'] = 'Reders/index';
+$route['Reders/create'] = 'Reders/CreateBook';
+$route['create'] = 'Reders/CreateBook';
+$route['Reders/detail/(:num)'] = 'Reders/DetailBook/index/$1';
+$route['Reders/update/(:num)'] = 'Reders/DetailBook/update/$1';
+$route['Reders/delete/(:num)'] = 'Reders/DetailBook/delete/$1';
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+/* 폼 컨테이너 스타일 */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 폼 스타일 */
+.book-form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 700px; /* 폼 가로 너비 조절 */
+    width: 100%; /* 폼을 화면 너비에 맞게 설정 */
+}
+
+/* 폼 그룹 스타일 */
+.form-group {
+    margin-bottom: 15px;
+    text-align: center; /* 입력 필드를 가로 중앙으로 정렬 */
+}
+
+
+/* 라벨 스타일 */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* 입력 필드 스타일 */
+input[type="text"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 제출 버튼 스타일 */
+.submit-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #258cd1;
+}

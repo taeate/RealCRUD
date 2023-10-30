@@ -13,8 +13,8 @@ class Reders extends CI_Controller {
 	{	
 		$list['get_data'] = $this->RedersModel->get_list();
 
-		$this->load->view('note', $list);
-		
+		$this->load->view('reders', $list);
+
 	}
 
 
